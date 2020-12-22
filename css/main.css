@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400, 700&display=swap");
+
+body{
+    margin: 0;
+    font-family: "Montserrat";
+}
+
+body a{
+    text-decoration: none;
+}
+
+.row{
+    display: grid;
+}
+
+.col1 p{
+    font-family: Monotype Corsiva;
+    font-size:  145%;
+    color: white;
+}
+
+.col1{
+    text-align: center;
+    background: url("../images/26674c3f8e533d662ce49522902a4654.jpg") no-repeat;
+    background-size: cover;
+    height: 67vh;
+}
+
+.upper-container{
+    background-color: #7B41EB;
+    text-align: center;
+    height: 43vh;
+    
+}
+
+.upper-container img{
+    width: 30%;
+}
+
+.col2 h2{
+    color: white;
+    margin-bottom: 2em;
+}
+
+.col2 p{
+    color: white;
+    margin-bottom: 3.3em;
+}
+
+
+.col1 input[type=button]{
+    color: black;
+    padding: 0.72em 3.96em;
+    margin-top: 4.6em;
+    border: none;
+    color: white;
+    background-color: rgb(255, 255, 255, 0.41);
+    border-radius: 7px;
+
+}
+
+.bottom-container input[type=text]{
+    margin-bottom: 1.2em ;
+    border: 0.45px solid rgba(158, 148, 148, 0.41);
+    border-radius: 5.2px;
+    padding: 0.5em;
+    width: calc(100% - 6em);
+}
+
+.bottom-container img{
+    width: 30%;
+}
+
+
+.bottom-container input[type=button]{
+    padding: 0.7em 2.7em;
+    border: none;
+    background-color: #707070;
+    color:white;
+    border-radius: 7px;
+    width: calc(100% - 5.3em);
+}
+
+.col1 h1{
+    font-family: Mongolian Baiti;
+    color: #ffffff;
+    font-size: 300%;
+}
+
+
+
+.upper-container a{
+    
+    color: white;
+    margin-top: 1.32em;
+}
+.upper-container p{
+    line-height: 1.4em;
+    
+}
+
+.HamMenu{
+    width: 20%;
+    cursor: pointer;
+    color: black;
+    background-color: white;   
+    margin: 0.232em 0 1em 3.3em;
+}
+
+.upper-container h2{
+    
+    font-family: Segoe UI;
+    padding-top: 0.5em;
+    margin-top: 0;
+}
+
+.bottom-container{
+    margin-bottom: 1.2em;
+    text-align: center;
+}
+
+.bottom-container p{
+    line-height: 1.4em;
+    color: black;
+}
+
+.bottom-container h2{
+    font-family: Segoe UI;
+    margin-top: 1.32em;
+    color: black;
+}
+
+ul{
+    list-style-type: none;
+    display: none;
+    color: white;
+    padding: 0.2em 1em;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.col1 a{
+    width: 20%;
+    color :white;
+    font-weight: bold;
+    margin-top: 0.234em;
+    font-family: Mongolian Baiti;   
+}
+
+
+@media only screen and (min-width:768px){
+    body{
+        font-size: 22px;
+    }
+
+
+    .bottom-container input[type=text]{
+        width: 60% !important;
+    }
+
+    .bottom-container input[type=button]{
+        width: 60% !important;
+    }
+
+    .col1 input[type=button]{
+        padding: 1.2em 5.9em;
+    }
+
+    ul{
+        margin: 0.232em 0 1em 3.3em;
+        display: flex;
+        
+    }
+
+    ul li{
+        padding: 0 1em ;
+    }
+    .HamMenu{
+        display: none;
+    }
+
+    .upper-container{
+        height: 67vh;
+    }
+
+
+}
+
+@media only screen and (min-width: 1024px){
+
+    body{
+        font-size: 24px;
+    }
+
+    ul{
+        margin-top: 0.35em;
+        
+    }
+    .col1 a{
+        margin-top: 0.35em;
+    }
+
+    .col p{
+        line-height: 1.9em;
+    }
+    .upper-container{
+        height: 70vh;
+    }
+
+    .row{
+        display: grid;
+        grid-template-columns: 67% auto;   
+    }
+
+    .col1 {
+        text-align: left;
+        height: 150vh;
+    }
+
+    .col1 h1{
+        margin-top: 2.8em;
+        padding: 0 1.1em;
+
+    }
+    .upper-container h2{
+        text-align: left;
+        padding: 0.5em 1em;
+    }
+
+    .bottom-container h2 {
+        padding: 0.5em 1em;
+        text-align: left;
+    }
+
+
+    .col1 p{
+        padding: 0 2.2em;
+    }
+
+    .col1 input[type=button]{
+        margin: 2.5em 5.1em;
+    }
+
+    
+
+
+
+
+}
